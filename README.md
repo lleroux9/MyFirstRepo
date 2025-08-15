@@ -75,9 +75,9 @@ Alternativly, if you do not care to give your link a name then just write it out
 
 
 ## How to display images
-![Explain Photo Insert](Photos\HowToPhoto.jpg)
+![Explain Photo Insert](Photos/HowToPhoto.jpg)
 Results:
-![Raytheon Logo](Photos\Raytheon-Emblem.png)
+![Raytheon Logo](Photos/Raytheon-Emblem.png)
 
 
 ## Text blocks
@@ -115,7 +115,7 @@ Bottom line of text
 
 ## Creating numbered lists
 Just do this:  
-![Explain Numbered Lists](Photos\HowToNumList.jpg)
+![Explain Numbered Lists](Photos/HowToNumList.jpg)
 
 1. One
 2. Two
@@ -123,7 +123,7 @@ Just do this:
 
 ## Creating bullet point lists
 Just do this:  
-![Explain Numbered Lists](Photos\HowToPointList.jpg)
+![Explain Numbered Lists](Photos/HowToPointList.jpg)
 
 * One
 * Two
@@ -133,7 +133,7 @@ Just do this:
 
 # Creating a table (github markdown specific)
 Use this structure  
-![ExplainTables](Photos\HowToTable.jpg)  
+![ExplainTables](Photos/HowToTable.jpg)  
 
 Results:  
 
@@ -146,7 +146,7 @@ Results:
 
 ## Creating check boxes
 Use the following structure:  
-![ExplainCheckBoxes](Photos\HowToCheckBox.jpg)  
+![ExplainCheckBoxes](Photos/HowToCheckBox.jpg)  
 Results: 
 
 - [ ] Un-checked check box
@@ -154,4 +154,4 @@ Results:
 
 
 ## The End
-![ThankYou](Photos\ThankYou.jpg) 
+![ThankYou](Photos/ThankYou.jpg) 
