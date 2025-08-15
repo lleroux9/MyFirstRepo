@@ -144,7 +144,7 @@ Results:
 | Lucas | CottageLover23@yahoo.ca |
 
 
-## Creating check boxes (little change)
+## Creating check boxes
 Use the following structure:  
 ![ExplainCheckBoxes](Photos\HowToCheckBox.jpg)  
 Results: 
