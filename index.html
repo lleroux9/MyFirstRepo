@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<!-- This argument tells the browser what language the website context is written in-->
+<html lang="en">
+
+<head>
+    <title>Logan Leroux</title>
+    <meta name="Description" content="results of free HTML tutorial follow along">
+    <!-- This is how you can add keywords for search engine optimization using the meta tags-->
+    <meta name="keywords" content="HTML, Tutorial, Logan, Leroux, Logan Leroux, Western University">
+    <!-- This is how I can tell search engines who is the author of this website -->
+    <meta name="author" content="Logan Leroux">
+    <!-- This is how you can make sure that the your websites visual conform to your users device. i.e. changes the scales if you are using iphone or laptop-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is how you tell your webpage what encoding style to use -->
+    <meta charset="UTF-8">
+    <!-- This is how we can set our website to re-fresh every variable amount of time -->
+
+</head>
+
+<body style="background-color: beige;">
+    <h1 style="color: rgb(0, 94, 255);"> <ins>Logan Leroux's Personal Portfolio</ins></h1>
+    <h4 style="color: rgb(87, 79, 63);">Created by: Logan Leroux</h4>
+    <hr>
+    <h2>Welcome to my website!</h2>
+    <p style="background-color: antiquewhite; color: rgb(226, 43, 205);">
+    This is my first website. I am pretty excited about it.
+    This website will be used as a digital portfolio to showcase, well... me!
+    </p>
+    <h3>About Me</h3>
+    <p>
+    I am a student at the University of Western Onatario studying Mechatrinics and Biomedical Engineering.
+    </p>  
+    <hr>
+    <h3>This is how you use a hyperlink (check code)</h3>
+    <!--
+    Notes on hyperlinks:
+    1. You can set the argument of the target attribute to "_blank" if you want the link to open in another tab.
+        Set it to "_self if you want to redirect in the same tab (this is the default setting)"
+    2. You can set the argument of the title attribute to whatever you want. This is a string of text that will apear when you hover over the link.
+
+    -->
+    <a href="https://google.com" target="_blank" title="Takes you to Google">Google</a>
+    <hr>
+    <h3>This is how you can jump to a second page of website (currently on landing page)</h3>
+    <a href="page2.html" target="_blank" title="Takes you to second page">Go to page 2</a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" title="Def not a rick roll">Go to page 3</a>
+    <hr>
+    <h3>Contact Me!</h3>
+    <a href="mailto:loganleroux9@gmail.com" target="_blank" title="loganleroux9@gmail.com">Email me</a>
+
+    <hr>
+    <h3>This is how you can display an image</h3>
+    <img src="Photos\westernU.png" height="300" alt="Western Logo" title="WesternU Logo">
+    <hr>
+    
+    <h3>You can also have you image act as a hyperlink</h3>
+    <a href="https://www.rtx.com/">
+        <img src="Photos\Raytheon-Emblem.png" alt="Raytheon Logo" width="200" title="Raytheon Logo">
+    </a>
+    <hr>
+
+    <h3>This is how you add audio to you website</h3>
+    <p>Not worked on yet</p>
+    <hr>
+    <h3>This is how you add video</h3>
+    <p>Sike I don't actually know how... yet</p>
+    <hr>
+    <h3>Below I work on text formatting</h3>
+
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italics</i> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small> small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscipt</sup> text</p>
+    <p>This is <ins>inserted</ins> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <mark>marked</mark> text</p>
+
+    <hr>
+    <!-- This is where the list section begins-->
+    <h3>This is how you create lists in HTML</h3>
+
+    <h4>Un-ordered List</h4>
+    <ul>
+        <li>Pizza dough</li>
+        <li>Tomato sauce</li>
+        <ul>
+            <li>From Italy</li>
+        </ul>
+        <li>Cheese</li>
+        <ul>
+            <li>From Matthew's Dairy Farm</li>
+        </ul>
+        <li>Pepperioni</li>
+        <li>Ham</li>
+        <li>Pinnaple</li>
+        <li>Olives</li>
+    </ul>
+    <h4>Ordered List</h4>
+    <!--You can change the type of ordered list by modifying the argument to parameter "Type"-->
+    <ol type="1">
+        <li>Pizza dough</li>
+        <ol type="i"">
+            <li>Eggs</li>
+            <li>Flour</li>
+        </ol>
+        <li>Tomato sauce</li>
+        <li>Cheese</li>
+        <li>Pepperioni</li>
+        <li>Ham</li>
+        <li>Pinnaple</li>
+        <li>Olives</li>
+    </ol>
+
+    <h4>Description List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a webpage</dd>
+        <dt>CSS</dt>
+        <dd>This adds styling to a webpage</dd>
+        <dt>JavaScript</dt>
+        <dd>This adds functionality to a webpage</dd>
+        <dt>Water</dt>
+        <dd>A liquid humans drink in order to survive</dd>
+        <dt>Python</dt>
+        <dd>A general purpose programming language that can do almost everything, but only kinda well</dd>
+
+    </dl>
+    <hr>
+    <h3>Creating tables using HTML</h3>
+    <h4>Hours of opperation</h4>
+    <table bgcolor="black" align="center" width="700">
+        <tr bgcolor="grey" align="center">
+            <th width="100">Sunday</th>
+            <th width="100">Monay</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+
+        <tr bgcolor="lightgrey" align="center">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>How to add color in your webpage</h3>
+    <p style="background-color: rgb(200, 200, 200);">All you have to do is set the argument to the "style" parameter to a CSS command.
+        <br>
+        For Example: in the parargraph element add style="background-color=rgb(200,200,200)";
+        <br>This ends up being the color you are currently seeing as the background color of this paragraph element.
+    </p>
+    <hr>
+    <h3>Using the HTML span tags</h3>
+    <p>
+        <span style="color: blue;">Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit. Id placeat praesentium vitae 
+        obcaecati enim dicta. Illum inventore, <span style="background-color: aquamarine;">provident aliquid non</span> facilis nesciunt quibusdam 
+        <span style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">porro iure ratione voluptatum. Harum, facilis consectetur?</span>
+    </p>
+    <hr>
+    <div style="background-color: blanchedalmond;">
+        <h3><ins>Using the div tags</ins></h3>
+        <p>The div tags are work the same as the span tags but are meant to create division in your document whereas the span tags are only for styling cretain sections.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni, qui dicta commodi eveniet cumque laboriosam tenetur in quod veritatis quidem dolore inventore dolorem soluta adipisci alias! Repudiandae, voluptatum vitae.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, delectus! Distinctio magnam a officia fugiat incidunt ipsa, aliquam aut blanditiis. Voluptas, magnam at reprehenderit ex dicta modi. Accusantium, est doloribus?</p>
+    </div>
+    <hr>
+    <h3>HTML Meta Tags</h3>
+    <p>The meta element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements. Metadata is data about data.
+        We can add metadata inside the head tag in our HTML document and this tells the web browser what our website is about.
+        With the meta tags <b>we place them within the head (not the body).
+        Meta tags do have a name attribute that we can set to one of many settings.
+        
+        </b>
+    </p>
+
+    <hr>
+    <h3>Using iframes</h3>
+    <p>You can use iframes to embed webpages and other documents within you website.
+        The iFrame element is used to embed content from another source into an HTML document.
+        Commonly used for advertisments. 
+    </p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.068617801302!2d-81.27647298453035!3d43.00959717914945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef0f34d9b1181%3A0x2f93d0b8a0a1e08f!2sWestern%20University!5e0!3m2!1sen!2sca!4v1691083105937!5m2!1sen!2sca" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    <hr>
+    <h3>How to create buttons in your HTML document</h3>
+    <a href="page3.html" title="Takes you to page 3" target="_blank">
+    <button>Click me</button>
+    </a>
+    <hr>
+    <h3>This is how we can use JavaScript for functionality in our webpage</h3>
+    <!-- This button will now execute the doSomething function when it is clicked -->
+    <button onclick="doSomething()">Click me to change text below</button>
+    <p id="test">Hello there</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "General Kenobi"
+        }
+    </script>
+    <hr>
+    <h3>Form elements in HTML</h3>
+    <form action="">
+        <label for="FirstNameBox">First Name: </label>
+        <input type="text" id="FirstNameBox" name="FirstNameBox" placeholder="John">
+        <br>
+        <label for="LastNameBox">Last Name:</label>
+        <input type="text" id="LastNameBox" name="LastNameBox" placeholder="Doe">
+        <br>
+        <label for="EmailBox">Email:<label>
+        <input type="text" id="EmailBox" name="EmailBox" placeholder="JohnDoe98@rogers.com">
+        <br>
+        <br>
+        <label for="MessageBox">Message Box:</label>
+        <br>
+        <input type="text" id="MessageBox" name="MessageBox" placeholder="Enter your message here"> <br>
+        <button>Send Message</button>
+
+    </form>
+
+</body>
+</html>
+
+<!-- This is how you make a comment in HTML-->
+<!-- The <hr> tag creates a horizontal rule on your page. -->
+<!-- The <br> tag create an empty line on your page (blank row)-->
+
+
+<!-- 
+Note on span & div tags
+span: adds markup to text or portions of a document. Anything that I surround with a pair of span tags I can apply markup or some effect to
+
+-->
